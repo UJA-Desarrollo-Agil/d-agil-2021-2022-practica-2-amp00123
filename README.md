@@ -21,7 +21,8 @@ dormido en la biblioteca de ésta, despues de un largo y duro día de trabajo. T
 <a name="diagrama"></a>
 ##Diagrama de flujo
 
-![Parece que la carga de la imagen ha fallado](media/games/tutorial/comienzo.png)
+![Notes_220315_222821](https://user-images.githubusercontent.com/99319967/158476500-1dd185f1-376d-4d2c-a6d7-1495b175c6e4.jpg)
+
 
 Como se puede ver en el diagrama después de elegir una de las opciones, cada una de ellas proporcionará una nueva aventura para nuestros personajes.
 
@@ -56,6 +57,10 @@ ___Imagen 3___
 
 En la imagen 3, vemos la conexión realizada desde Telegram con el proyecto en GitHub.
 
+![git](https://user-images.githubusercontent.com/99319967/158474479-953811bd-8b08-4da3-97f8-98c81ee9b486.png)
+
+No sé por qué no me las empareja correctamente ya que le paso el id del repositorio perfecto.
+
 
 ___Telegram___: @albertillo43
 
@@ -66,32 +71,41 @@ ___Imagen 4___
 
 En la imagen 4, vemos la conexión realizada desde Telegram con el tablero de Trello.
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\Trello "Vinculación con Telegram")
+![telegram1](https://user-images.githubusercontent.com/99319967/158473632-7f090177-26e5-4377-b402-7d38daf52846.png)
 
-___Enlace al tablero de Trello___: [https://trello.com/b/Fexv5RTZ/segunda-practica](https://trello.com/b/Fexv5RTZ/segunda-practica)
+![telegram2](https://user-images.githubusercontent.com/99319967/158473649-108ec0fe-b5ba-4771-a832-45b270d44b7e.png)
+
+
+___Enlace al tablero de Trello___: https://trello.com/b/XN3C1Lwc/practica2
 
 <a name="evolucion"></a>
 ## Evolución del tablero de Trello
 
-A continuación, se muestran diferentes capturas de pantalla con el proceso evolutivo que ha tenido el tablero de Trello mientras se resolvía la práctica.
+Vease la evolución del tablero trello.
 
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\TInicio "Tablero al inicio")
 ___Imagen 5___
-En la imagen 5, vemos el tablero al comienzo de la práctica.
+Comienzo de la práctica
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\PSemana "Tablero en la segunda semana")
+![trello](https://user-images.githubusercontent.com/99319967/158473995-1a692f2c-2b97-4c34-a0e7-fedda201d483.png)
+
 ___Imagen 6___
-En la imagen 6, vemos el tablero tras una semana de trabajo.
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\SSemana "Tablero en la tercera semana")
+1ºSemana de trabajo.
+
+![1 semana](https://user-images.githubusercontent.com/99319967/158474059-8854255b-3f59-4e3d-9563-96b5853b7fcc.png)
+
 ___Imagen 7___
-En la imagen 7, vemos el tablero tras dos semanas de trabajo.
+2º semana de trabajo.
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\TSemana "Tabler en la tercera semana")
+![trello3](https://user-images.githubusercontent.com/99319967/158474332-d764020b-d25a-424b-a8de-899c27437f9a.png)
+
 ___Imagen 8___
-En la imagen 8, vemos el tablero tras tres semanas de trabajo.
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\Completo "Tablero completo")
-___Imagen 9___
-En la imagen 9, vemos el tablero tras finalizar todas las tareas.
+Final.
+
+![trello4](https://user-images.githubusercontent.com/99319967/158474374-a90301d1-c635-4544-8c3a-dd6660dbf144.png)
+
+
+
+
