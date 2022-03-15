@@ -30,7 +30,8 @@ Como se puede ver en el diagrama después de elegir una de las opciones, cada un
 
 ___Vista principal___: Vista de la historia al comienzo.
 
-![Parece que la carga de la imagen ha fallado](media/games/tutorial/comienzo.png)
+![comienzo](https://user-images.githubusercontent.com/99319967/158452736-53c0bc19-dfc3-422a-9377-36a7a88bfde6.png)
+
 
 
 ___Listado de los personajes y sus estadisticas___: Conforme se vayan seleccionando las distintas opciones, las estadísticas de cada personaje iran cambiandose.
