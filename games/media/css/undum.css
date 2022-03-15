@@ -1,10 +1,11 @@
 body {
-    background: #170804 url("../img/page_bg.jpg") repeat-x left top;
-    font-family: Palatino, Times, "Times New Roman", serif;
-    font-size: 18px;
-    line-height: 1.6em;
-    background-attachment: fixed;
-    overflow-y: scroll;
+   background: url("../img/noche2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+	
 }
 
 /* Basic structure */
@@ -21,8 +22,8 @@ body {
     border-radius: 2px;
 }
 #title {
-    max-width: 28em;
-    background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
+    max-width: 35em;
+    background: #e6e6c6 url("../img/libreta.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
     border: 1.1em solid rgba(0,0,0,0.25);
@@ -30,7 +31,7 @@ body {
 }
 #title .label {
     overflow: hidden;
-    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    background: #e6e6c6 url("../img/libbreta2.jpg") repeat left top;
     padding: 2.0em;
     margin: auto;
     max-width: 18em;
@@ -86,7 +87,7 @@ body {
     right: 0;
     bottom: 0;
     position: absolute;
-    font-size: 0.9em;
+    font-size: 1em;
     font-style: italic;
     text-align: center;
     color: #943;
