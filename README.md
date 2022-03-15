@@ -34,18 +34,20 @@ ___Vista principal___: Vista de la historia al comienzo.
 
 
 
-___Listado de los personajes y sus estadisticas___: Conforme se vayan seleccionando las distintas opciones, las estadísticas de cada personaje iran cambiandose.
+___Estasísticas (Situación)___: Conforme se vayan seleccionando las distintas opciones, las estadísticas y la situación iran cambiandose.
 
 
 ___Imagen 1___
-En la imagen 1, podemos ver las estadisticas iniciales.
+En la imagen 1, podemos ver las estadisticas iniciales de la situación.
 
-![Parece que la carga de la imagen ha fallado](media/games/tutorial/estadistica.png)
+![estadistica](https://user-images.githubusercontent.com/99319967/158472952-1cab389f-4811-4d9a-89f8-ffcd7919e00e.png)
+
 
 ___Imagen 2___
-En la imagen 2, podemos ver un ejemplo de como han cambiando conforme se ha seleccionado una opción.
 
-![Parece que la carga de la imagen ha fallado](media/games/tutorial/estadisticamodi.png)
+Aquí se puede ver las diferentes modificaciones de las estadísticas.
+
+![estadisticamodi](https://user-images.githubusercontent.com/99319967/158473098-bce65609-7322-4e4b-aa0f-23d0354c9609.png)
 
 <a name="conexion_git"></a>
 ## Conexión entre GitHub y Telegram
@@ -54,7 +56,6 @@ ___Imagen 3___
 
 En la imagen 3, vemos la conexión realizada desde Telegram con el proyecto en GitHub.
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\Telegram "Vinculación con Telegram")
 
 ___Telegram___: @albertillo43
 
@@ -87,7 +88,7 @@ En la imagen 6, vemos el tablero tras una semana de trabajo.
 ___Imagen 7___
 En la imagen 7, vemos el tablero tras dos semanas de trabajo.
 
-![Parece que la carga de la imagen ha fallado](..\games\media\img\TSemana "Tablero en la tercera semana")
+![Parece que la carga de la imagen ha fallado](..\games\media\img\TSemana "Tabler en la tercera semana")
 ___Imagen 8___
 En la imagen 8, vemos el tablero tras tres semanas de trabajo.
 
