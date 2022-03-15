@@ -1,140 +1,95 @@
-# Undum
+<a name="top"></a>
+# Escapar de la UJA
 
-Undum is a game framework for building a sophisticated form of
-hypertext interactive fiction.
+Esta práctica trata de un juego conversacional creado con Undum para las prácticas de la asignatura de Desarrollo Ágil.
+Desarrollado por Alberto Martínez Pérez - _amp00123@red.ujaen.es_
 
-If that means nothing to you, then let's go back a few steps. Remember
-those Choose Your Own Adventure, or Fighting Fantasy books? Where you
-got to choose what your character does next? Well if you think of that
-in a web-page you have hypertext interactive fiction, or HIF. Instead
-of turning to a particular page, you click a link, and the next bit of
-content appears.
+## Índice
+* [Descripción](#descripción)
+* [Diagrama de flujo](#diagrama)
+* [Diseño](#diseño)
+* [Conexión entre Github y Telegram](#conexion_git)
+* [Conexión entre Trello y Telegram](#conexion_trello)
+* [Evolución del tablero de Trello](#evolucion)
 
-The problem is that those kinds of games are pretty limited. Every
-time the player does something, the story could go in different
-directions. So the author has to either write masses of branches, or
-else the decisions you make as a player have to be relatively short
-lived. If you played CYOA books you'll know that the wrong move either
-ended the story pretty quickly, or else it didn't really matter what
-you did because you'd end up at the same place.
+<a name="descripción"></a>
+## Descripción
 
-To beat this limitation, Undum allows you to make the output
-dynamic. It allows you to keep track of what has happened to the
-character (any kinds of data, in fact), and to then change the text
-that gets output accordingly. Effectively it is like writing a CYOA
-page that is different each time you read it. This allows for far
-richer and more rewarding game design.
+'Escapar de la UJA' se basa en un suceso que le ocurre a nuestro personaje principal 'Albertillo'. Albertillo es un estudiante de ingeniería informática de Jaén que se queda 
+dormido en la biblioteca de ésta, despues de un largo y duro día de trabajo. Tu misión será intentar escapar de ahí sano y salvo.
 
-Undum is a pure client client-side library. It consists of a HTML file
-and three Javascript files. The HTML file uses a nice bit of styling,
-so there's a bunch of CSS and images in the default package too, but
-that can be replaced if you want. To create your own game, you edit
-the HTML file a little (mainly just changing the title and author),
-and edit one of the Javascript files.
+<a name="diagrama"></a>
+##Diagrama de flujo
 
-Because the game is written in Javascript, you get the full power of a
-dynamic and efficient programming language. This isn't a CYOA
-scripting system with limited functionality. You can take control of
-anything you want. Or you can just keep things simple using a bunch of
-simple functions provided by Undum.
+![Parece que la carga de la imagen ha fallado](media/games/tutorial/comienzo.png)
+
+Como se puede ver en el diagrama después de elegir una de las opciones, cada una de ellas proporcionará una nueva aventura para nuestros personajes.
+
+<a nama="diseño"></a>
+## Diseño
+
+___Vista principal___: Vista de la historia al comienzo.
+
+![Parece que la carga de la imagen ha fallado](media/games/tutorial/comienzo.png)
 
 
-## Compatibility
-
-Undum is designed for HTML5 and CSS3 browsers. It has been tested on
-Firefox 3.6, Chrome 5, and Safari 5. Older browsers may work okay too,
-but some of the animation won't work, the styles may render poorly,
-and saving and loading of games is unlikely to work. Anyone who wants
-to hack around with it and make it work more widely is welcome. Just
-fork this project on Github.
-
-The local storage system on some browsers does not work when loading a
-page from your hard drive. To test your game when developing it, you
-may want to start up a simple local webserver. I have found that
-Chrome seems to reliably provide local storage for local
-development. It also has excellent Javascript debugging tools.
+___Listado de los personajes y sus estadisticas___: Conforme se vayan seleccionando las distintas opciones, las estadísticas de cada personaje iran cambiandose.
 
 
-## Getting Started
+___Imagen 1___
+En la imagen 1, podemos ver las estadisticas iniciales.
 
-1. Download Undum. Use the 'download zip' link in the right column of
-   this page.
+![Parece que la carga de la imagen ha fallado](media/games/tutorial/estadistica.png)
 
-2. Unzip Undum somewhere on your hard-drive.
+___Imagen 2___
+En la imagen 2, podemos ver un ejemplo de como han cambiando conforme se ha seleccionado una opción.
 
-3. Open games/tutorial.html in your browser, and play through the tutorial.
+![Parece que la carga de la imagen ha fallado](media/games/tutorial/estadisticamodi.png)
 
-4. Copy games/tutorial.html to a file that reflects your game name.
+<a name="conexion_git"></a>
+## Conexión entre GitHub y Telegram
 
-5. Edit your HTML file and add the title, author and description of
-   the game you want to write. At the bottom of the file change the
-   name of `tutorial.game.js` to something else (by convention
-   *your-game-name*`.game.js`.
+___Imagen 3___
 
-6. Copy `tutorial.game.js` to the file name you chose in the last
-   step. Open it and begin creating your game.
+En la imagen 3, vemos la conexión realizada desde Telegram con el proyecto en GitHub.
 
+![Parece que la carga de la imagen ha fallado](..\games\media\img\Telegram "Vinculación con Telegram")
 
-Reference documentation, including full API details, is at
-[http://idmillington.github.io/undum/](http://idmillington.github.io/undum/),
-and is also included in the repository.
+___Telegram___: @albertillo43
 
-The source code for all the files is also heavily commented, so if you
-get stuck, go in and read it.
+<a name="conexion_trello"></a>
+## Conexión entre Trello y Telegram
 
+___Imagen 4___
 
-## Deploying
+En la imagen 4, vemos la conexión realizada desde Telegram con el tablero de Trello.
 
-To deploy your game, just upload your HTML file and the `media` folder
-to your webserver. You can serve several games with the same look and
-feel from the same directory. You need a different HTML file for each
-game, and each one should load the correct `.game.js` file at the
-end. Add any media you need for your game (images, audio, video), and
-the remaining files will be reused.
+![Parece que la carga de la imagen ha fallado](..\games\media\img\Trello "Vinculación con Telegram")
 
-For example, if you had 3 games: `episode1`, `episode2`, and
-`christmas-special`. You'd have a directory structure:
+___Enlace al tablero de Trello___: [https://trello.com/b/Fexv5RTZ/segunda-practica](https://trello.com/b/Fexv5RTZ/segunda-practica)
 
-    episode1.html
-    episode2.html
-    christmas-special.html
-    media/
-        css/ ...
-        img/ ...
-        js/
-            jquery-1.4.2.min.js
-            undum.js
-        games/
-            episode1/
-                episode1.game.js
-                ... media for episode 1 ...
-            episode2/
-                episode2.game.js
-                ... media for episode 1 ...
-            christmas-special/
-                christmas-special.game.js
-                ... media for christmas special ...
+<a name="evolucion"></a>
+## Evolución del tablero de Trello
 
-This assumes you use the same directory lay out that I do. You are
-welcome to change things around, of course, as long as you work and
-change the references.
+A continuación, se muestran diferentes capturas de pantalla con el proceso evolutivo que ha tenido el tablero de Trello mientras se resolvía la práctica.
 
 
-## Undum
+![Parece que la carga de la imagen ha fallado](..\games\media\img\TInicio "Tablero al inicio")
+___Imagen 5___
+En la imagen 5, vemos el tablero al comienzo de la práctica.
 
-The name `undum` came from a little project that preceded this code
-base. In 2008 I put together a simple browser based game. It was
-narrative, but used the grind-based mechanics of games such as
-Farmville and Mafia Wars. Because of the grinding, I called it
-Carborundum, which I found I couldn't type at speed, so it became
-Undum. The code has changed out of all recognition since them, as the
-grind-based game moved to Flash. But the name stuck for the Javascript
-framework.
+![Parece que la carga de la imagen ha fallado](..\games\media\img\PSemana "Tablero en la segunda semana")
+___Imagen 6___
+En la imagen 6, vemos el tablero tras una semana de trabajo.
 
+![Parece que la carga de la imagen ha fallado](..\games\media\img\SSemana "Tablero en la tercera semana")
+___Imagen 7___
+En la imagen 7, vemos el tablero tras dos semanas de trabajo.
 
-## License
+![Parece que la carga de la imagen ha fallado](..\games\media\img\TSemana "Tablero en la tercera semana")
+___Imagen 8___
+En la imagen 8, vemos el tablero tras tres semanas de trabajo.
 
-The code, documentation, styles, design and images are all distributed
-under the MIT license. This permits you to modify and use them, even
-for commercial use. A copy of the MIT license is found in the LICENSE
-file.
+![Parece que la carga de la imagen ha fallado](..\games\media\img\Completo "Tablero completo")
+___Imagen 9___
+En la imagen 9, vemos el tablero tras finalizar todas las tareas.
